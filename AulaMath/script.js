@@ -1,0 +1,14 @@
+document.write('PI = ' + Math.PI)//constante PI
+document.write('<br>Euller = ' + Math.E)//constante Euller
+var num = -10
+document.write('<br>Absoluto = ' + Math.abs(num))
+var valor = 10.4
+document.write('<br>Arredondamento para cima = ' + Math.ceil(valor))//arredonda para cima
+document.write('<br>Arredondamento para baixo = ' + Math.floor(valor))//arredonda para baixo
+document.write('<br>Arredondamento conforme o decimal = ' + Math.round(valor))//arredonda para baixo até 0.4 e para cima a partir de 0.5
+document.write('<br>Potencia = ' + Math.pow(valor,2))//potencia
+document.write('<br>Raiz Quadrada = ' + Math.sqrt(valor))//raiz quadrada
+document.write('<br>Valor aleatório entre 0 e 1 = ' + Math.random())
+document.write('<br>Valor aleatório inteiro entre 0 e 10 = ' + Math.round(Math.random() * 10))//valor entre 0 e 10
+//document.write('<br>Valor aleatorio entre 20 e 50= ' + Math.round(Math.random() * (max - min + 1) + min))
+document.write('<br>Valor aleatorio entre 20 e 50 = ' + Math.round(Math.random() * (50 - 20 + 1) + 20))
